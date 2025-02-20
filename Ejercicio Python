@@ -32,6 +32,6 @@ class Clientes:
         print(f"Mi nombre es {self.nombre} {self.apellido} vivo en {self.direccion} y tengo {edad} años de edad.")
         
         
-jaider = Clientes("Jaider", "Mercado Lopez", 10525554 ,"jaidermercadolopez@gmail.com", "3057661941", "Olaya Herera", "1989/08/11") 
+yesleidis= Clientes("yesleidis", "arrieta muñoz", 1002429793 ,"arrietayesleidis@gmail.com", "3107082239", "los alpes", "2003/06/17") 
 
-jaider.mensaje()
+yesleidis.mensaje()
