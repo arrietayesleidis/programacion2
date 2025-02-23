@@ -1,0 +1,29 @@
+class Vehiculo:
+    def __init__(self, fecha_fabricacion, vin_chasis, vin_motor):
+        self._fecha_fabricacion = fecha_fabricacion
+        self._vin_chasis = vin_chasis
+        self._vin_motor = vin_motor
+
+    @property
+    def fecha_fabricacion(self):
+        return self._fecha_fabricacion
+
+    @fecha_fabricacion.setter
+    def fecha_fabricacion(self, valor):
+        self._fecha_fabricacion = valor
+
+    @property
+    def vin_chasis(self):
+        return self._vin_chasis
+
+    @vin_chasis.setter
+    def vin_chasis(self, valor):
+        self._vin_chasis = valor
+
+    @property
+    def vin_motor(self):
+        return self._vin_motor
+
+    @vin_motor.setter
+    def vin_motor(self, valor):
+        self._vin_motor = valor
