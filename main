@@ -1,0 +1,11 @@
+def main():
+    miAuto = "Automovil"(
+        fecha_fabricacion="2024-03-14",
+        vin_chasis="ABC123456789",
+        vin_motor="MOT987654321",
+        marca="Toyota",
+        modelo="Corolla",
+        precio=25000.00
+    )
+    
+    miAuto.mostrar_datos()
